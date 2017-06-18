@@ -1,0 +1,26 @@
+/* Anyway, here's the user styles because I don't wanna put them inside Normalize or Skeleton. */
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    /*text-align: center;*/
+}
+
+body p {
+    font-size: 2.0em;
+}
+
+.hidden {
+    display: none;
+}
+
+.user-input label {
+    display: inline;
+}
+
+.user-input input {
+    width: 86%; /* honestly, this is really a randomly chosen width. If the screen goes below a certain size it'll probably look really gross. Oops.*/
+    margin-left: 1%; /* haha whoever introduced me to using percentages on margins should be shot, tarred and feathered, and defenestrated.
+
+    in all honesty, 1% looks really good. */
+}

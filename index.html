@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Vowel Counter</title>
+  <meta name="description" content="Have you ever wondered, 'How many vowels are in this sentence?' Guess no longer!">
+  <meta name="author" content="Kobe Amoh">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <!--  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<h1>Vowel Counter</h1>
+<p>This is a static page that takes your input and returns the number of vowels in the input.</p>
+<p>Please enter a sentence, phrase, or other bit of nonsense in the form field below, then hit "enter" or the submit button.</p>
+
+<form class="page-form" action="index.html" method="post">
+  <div class="user-input">
+    <label for="inputField">Your input:</label>
+    <input type="text" name="name" id="inputField">
+  </div>
+  <div class="submit-button">
+    <button type="submit">Submit</button>
+  </div>
+</form>
+
+<p class="message hidden">Your string contains <span class="vowels-go-here hidden"></span> vowels!</p>
+<p class="error-message hidden">Your string contains no vowels. Sad!</p>
+
+<script src="js/main.js"></script>
+</body>
+</html>
